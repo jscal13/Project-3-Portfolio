@@ -1,15 +1,47 @@
-body{
+* {
+  box-sizing: border-box;
+}
+body {
   font-family: Arial, Helvtica, sans-serif;
 }
 
-.header{
+.header {
   background-color: red;
   padding: 30px;
   text-align: center; 
+  font-size: 35px;
 }
 
-img{
-  align-content:center;
-  padding: 5px;
-  width: 321px;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row {
+  content:"";
+  display: table;
+  clear: both;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
