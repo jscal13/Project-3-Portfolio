@@ -27,7 +27,7 @@ body {
 }
 
 .row:after {
-  content: "Mosaic.jpg";
+  content: "";
   display: table;
   clear: both;
 }
