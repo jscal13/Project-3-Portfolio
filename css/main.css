@@ -9,7 +9,11 @@ body{
 }
 
 img{
-  text-align:center;
+  align-content:center;
   padding: 5px;
   width: 321px;
+}
+
+.body{
+  text-align: center;
 }
