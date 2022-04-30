@@ -1,12 +1,11 @@
 body{
-  background-color: red; 
-  margin: auto;
+  font-family: Arial, Helvtica, sans-serif;
 }
 
 .header{
-  padding: 60px;
-  text-align:center;
-  background: lightblue; 
+  background-color: red;
+  padding: 30px;
+  text-align: center; 
 }
 
 img{
