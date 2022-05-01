@@ -3,9 +3,11 @@
 }
 body {
   font-family: Arial, Helvtica, sans-serif;
+  background-color: blueviolet;
 }
 
 .header {
+  font-family: 'Times New Roman', Times, serif;
   background-color: red;
   padding: 30px;
   text-align: center; 
@@ -24,4 +26,11 @@ body {
   display: table;
   clear: both;
 
+}
+
+img {
+  border-radius: 5px;
+  image-rendering: crisp-edges;
+  padding: 5px;
+  width: 336px;
 }
