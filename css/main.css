@@ -3,8 +3,9 @@
 }
 body {
   font-family: 'Times New Roman', Times, serif;
-  background-color: blueviolet;
+  background-color: yellow;
   text-align: center;
+  color: black;
 }
 
 .h1 {
